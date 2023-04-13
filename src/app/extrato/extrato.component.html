@@ -1,14 +1,14 @@
-<p>Extrato</p>
-<table>
+<p class="titulo">Extrato</p>
+<table class="tabela">
     <thead>
-        <th>Data</th>
-        <th>Valor</th>
-        <th>Destino</th>
+        <th class="tabela" class="tabela__cabecalho" class="tabela__cabecalho__conteudo">Data</th>
+        <th class="tabela" class="tabela__cabecalho" class="tabela__cabecalho__conteudo">Valor</th>
+        <th class="tabela" class="tabela__cabecalho" class="tabela__cabecalho__conteudo">Destino</th>
     </thead>
     <tbody>
-        <tr *ngFor="let transferencia of transferencias">
-            <td>{{transferencia.data | date: "short" }}</td>
-            <td>{{transferencia.valor | currency }}</td>
-            <td>{{transferencia.destino}}</td>
+        <tr class="tabela__linha" *ngFor="let transferencia of transferencias">
+            <td class="tabela" class="tabela__cabecalho" class="tabela__cabecalho__conteudo">{{transferencia.data | date: "short" }}</td>
+            <td class="tabela" class="tabela__cabecalho" class="tabela__cabecalho__conteudo">{{transferencia.valor | currency }}</td>
+            <td class="tabela" class="tabela__cabecalho" class="tabela__cabecalho__conteudo">{{transferencia.destino}}</td>
     </tbody>
 </table>
