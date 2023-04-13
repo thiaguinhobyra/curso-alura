@@ -16,19 +16,17 @@
             border-bottom: 2px solid green;
         }
     }
-}
-
-&__linha {
-    margin-bottom: 10px;
-    border-radius: 4px;
-    &:last-child {
-        .tabela__conteudo {
-            border-bottom: none;
+    &__linha {
+        margin-bottom: 10px;
+        border-radius: 4px;
+        &:last-child {
+            .tabela__conteudo {
+                border-bottom: none;
+            }
         }
     }
-}
-
-&__conteudo {
-    padding: 10px;
-    border-radius: 1px solid var(--cinza-claro);
+    &__conteudo {
+        padding: 10px;
+        border-radius: 1px solid var(--cinza-claro);
+    }
 }
