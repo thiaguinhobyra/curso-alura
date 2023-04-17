@@ -10,9 +10,4 @@ export class AppComponent {
   title = 'curso-alura';
 
   constructor(public service: TransferenciaService) { }
-
-  transferir($event: any) {
-    this.service.add($event);
-    
-  }
 }
